@@ -44,6 +44,13 @@ header {
 	height: 550px;
 }
 
+img {
+	width: 150px;
+	float:left;
+	margin-right: 10px;
+}
+
+
 .right-column {
 	width:200px;
 	background: #BFE9FF;
