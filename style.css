@@ -1,0 +1,77 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+	background: url("images/tic-tac-toe.png");
+	width: 700px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: pink;
+	border: 1px solid;
+	padding: 0 20px;
+	height: 125px;
+}
+
+.brand {
+	width: 300px;
+	float:left;
+}
+
+.navbar {
+	width: 300px;
+	float:left;	
+	margin: 50px 0 0 50px;
+
+}
+
+.navbar li {
+	display: inline-block;
+	width: 70px;
+}
+
+.left-column {
+	width:490px;
+	background: #FFE9CD;
+	border: 1px solid;
+	padding: 0 20px;
+	margin: 10px 10px 10px 0;
+	float: left;
+	height: 550px;
+}
+
+.right-column {
+	width:200px;
+	background: #BFE9FF;
+	border: 1px solid;
+	padding: 0 20px;
+	margin: 10px 0;
+	float:left;
+	height: 550px;
+}
+
+.clear {
+	clear:both;
+}
+
+footer {
+	background-color: #B7D7D9;
+	border: 1px solid;
+	padding: 0 20px;
+	height: 50px;
+}
+
+.align-left {
+	width: 500px;
+	float:left;
+}
+
+.align-right {
+	float: left;
+	width: 158px;
+	text-align: right;
+}
