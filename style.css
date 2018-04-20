@@ -44,10 +44,14 @@ header {
 	height: 550px;
 }
 
-img {
-	width: 150px;
+aside {
 	float:left;
 	margin-right: 10px;
+	width: 150px;
+}
+
+img {
+	width: 100%;
 }
 
 
@@ -73,12 +77,12 @@ footer {
 }
 
 .align-left {
-	width: 500px;
+	width: 50%;
 	float:left;
 }
 
 .align-right {
 	float: left;
-	width: 158px;
+	width: 50%;
 	text-align: right;
 }
